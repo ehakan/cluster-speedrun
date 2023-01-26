@@ -9,11 +9,6 @@ spec:
     repoURL: https://github.com/ehakan/cluster-speedrun.git
     targetRevision: HEAD
     path: kubernetes/apps/sock-shop
-    chart: sock-shop-chart
-    helm:
-      valueFiles:
-        - values.yaml
-
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
