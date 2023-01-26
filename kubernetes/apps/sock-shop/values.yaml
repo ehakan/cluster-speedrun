@@ -3,7 +3,6 @@
 # Declare variables to be passed into your templates.
 global:
     registry: ''
-    namespace: 'socks'
 
 java:
     options: -Xms64m -Xmx128m -XX:PermSize=32m -XX:MaxPermSize=64m -XX:+UseG1GC -Djava.security.egd=file:/dev/urandom
