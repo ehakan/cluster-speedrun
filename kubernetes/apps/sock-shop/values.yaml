@@ -12,7 +12,7 @@ istio:
 
 ingress:
     annotations:
-        kubernetes.io/ingress.class: nginx
+        kubernetes.io/ingress.class: alb
     labels: {}
     host: ''
     tlsSecretName: ''
