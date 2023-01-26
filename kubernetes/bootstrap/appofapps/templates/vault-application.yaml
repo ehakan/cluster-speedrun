@@ -16,6 +16,8 @@ spec:
           enabled: true
         dev:
           enabled: true
+        injector:
+          enabled: false
 
   destination:
     server: https://kubernetes.default.svc
